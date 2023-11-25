@@ -4,19 +4,19 @@ import Image from "next/image";
 import RenderTag from "./RenderTag";
 
 const hotQuestions = [
-  { _id: 1, title: "lorem1" },
-  { _id: 2, title: "lorem2" },
-  { _id: 3, title: "lorem3" },
-  { _id: 4, title: "lorem4" },
-  { _id: 5, title: "lorem5" },
+  { _id: "1", title: "lorem1" },
+  { _id: "2", title: "lorem2" },
+  { _id: "3", title: "lorem3" },
+  { _id: "4", title: "lorem4" },
+  { _id: "5", title: "lorem5" },
 ];
 
 const PopularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "react", totalQuestions: 5 },
-  { _id: 3, name: "next", totalQuestions: 5 },
-  { _id: 4, name: "bue", totalQuestions: 5 },
-  { _id: 5, name: "redux", totalQuestions: 5 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "react", totalQuestions: 5 },
+  { _id: "3", name: "next", totalQuestions: 5 },
+  { _id: "4", name: "bue", totalQuestions: 5 },
+  { _id: "5", name: "redux", totalQuestions: 5 },
 ];
 
 const RightSidebar = () => {
