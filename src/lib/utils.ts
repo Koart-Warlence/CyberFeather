@@ -41,9 +41,6 @@ export const getTimestamp = (createdAt: Date): string => {
   }
 };
 
-// Note: The toFixed() method can have precision issues, depending on the browser implementation.
-// E.g., 1150000/1000 → 1.1M (not 1.2M), 1250000/1000 → 1.3M
-// E.g., 1150/1000 → 1.1k (not 1.2k), 1250/1000 → 1.3k
 export const formatAndDivideNumber = (num: number): string => {
   if (num >= 1000000) {
     const formattedNum = (num / 1000000).toFixed(1);
@@ -54,4 +51,15 @@ export const formatAndDivideNumber = (num: number): string => {
   } else {
     return num.toString();
   }
+};
+
+export const getJoinedDate = (date: Date): string => {
+  // Extract the month and year from the Date object
+  const month = date.toLocaleString("default", { month: "long" });
+  const year = date.getFullYear();
+
+  // Create the joined date string (e.g., "September 2023")
+  const joinedDate = `${month} ${year}`;
+
+  return joinedDate;
 };
