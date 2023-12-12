@@ -1,6 +1,6 @@
 # CyberFeather
 
-CyberFeather is a community-based software on GitHub, resembling StackOverFlow in its functionality.
+CyberFeather is a community-based software on GitHub, resembling Stack OverFlow in its functionality.
 
 https://cyber-feather-koart-warlences-projects.vercel.app/
 
