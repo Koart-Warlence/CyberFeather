@@ -1,6 +1,6 @@
 # CyberFeather
 
-CyberFeather is a community-based software on GitHub, resembling Stack OverFlow in its functionality.
+**CyberFeather** is a community-based software on GitHub, resembling Stack OverFlow in its functionality.
 
 https://cyber-feather-koart-warlences-projects.vercel.app/
 
@@ -33,7 +33,7 @@ https://cyber-feather-koart-warlences-projects.vercel.app/
     OPENAI_API_KEY=YOUR_OPENAI_API_KEY
    ```
 
-Make sure to replace these values with the respective actual values.
+   Make sure to replace these values with the respective actual values.
 
 3. Start the project:
 
@@ -65,6 +65,7 @@ Make sure to replace these values with the respective actual values.
 
 ## Technologies Used
 
+- TypeScript
 - React
 - Next.js
 - Tailwind CSS
